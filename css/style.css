@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Museo 300;
+    src: url('../font/Museo 300.otf');
+}
+
+@font-face {
+    font-family: Museo 500;
+    src: url('../font/Museo 500.otf');
+}
+
+@font-face {
+    font-family: Museo 700;
+    src: url('../font/Museo 700.otf');
+}
+
+@font-face {
+    font-family: Oswald-Bold;
+    src: url('../font/Oswald-Bold.otf');
+}
+
+body {
+    font-family: 'Museo 700';
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+}
+ 
+
+p,
+a{
+    font-size: 16px !important;
+    color: #463f3a;
+    font-family: 'Museo 500';
+    text-decoration: none;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 30px !important;
+    font-family: 'Oswald-Bold';
+    color: #463f3a;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px !important;
+    font-family: 'Oswald-Bold';
+    color: #fff;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+h3 {font-size: 18px !important;
+ color: #463f3a;
+    font-family: 'Museo 500';
+    font-size: 2.5em;
+    display: inline-block;
+
+}
+
+h4 {
+    font-size: 18px !important;
+   color: #463f3a;
+    font-family: 'Museo 300';
+    font-size: 2.5em;
+    display: inline-block;
+}
+h5 {
+    font-size: 14px !important;
+    color: #463f3a;
+    font-family: 'Museo 300';
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 13px 15px;
+}
+
+h6 {font-size: 60px !important;
+ color: #fff;
+    font-family: 'Oswald-Bold';
+    font-size: 2.5em;
+    display: inline-block;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a:hover {
+    
+}
+
+.container {
+    max-width: 1180px;
+}
+
+.header-section {
+
+
+}
+.header-section li{
+    display: inline-block ;
+ }
+.header-section .container {
+}
+
+.upperHeader{width: 100%;
+
+}
+
+.support{ 
+
+}
+.support h5:first-child{ 
+margin-left: 0;
+}
+.separators{display: inline-block;
+
+}
+.separators h5:last-child{
+    margin-right: 0
+
+}
+.account{
+    
+
+}
+
+header {
+    background-color: #f5f6f1;
+
+}
+
+
+.logo {
+    margin: 55px 0;
+    
+
+}
+
+nav {
+    margin: 71px 0;
+}
+
+nav a {
+
+}
+
+nav .main-nav h4{ margin: 0 20px;
+
+}
+
+nav .main-nav li a {
+
+}
+
+.first-child { margin-left: 0 !important;
+ 
+}
+
+nav .main-nav li:after {
+     content: " / ";
+     color: #f55856;}
+
+      nav .main-nav li:last-child:after {
+     content: " ";
+ }
+.last-child {
+    margin-right: 0 !important;
+}
+
+.cart{        margin: 53px 0;
+    text-align: right;
+
+}
+
+.cart h4   {
+
+}
+
+.cart h4 span{    font-weight: 700;
+
+
+}
+
+.cart a{
+
+}
+
+.cart a img{
+
+}
+
+
+.banner-section {margin: 40px 0;
+ 
+}
+
+.banner-section .container{  background: url("../img/banner.jpg") no-repeat center center / cover ;
+       width: 100%;
+    max-height: 100vh;
+
+
+}
+
+.contan{
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.contan ul{
+
+padding: 0 70px;
+}
+
+.contan ul li{
+
+padding: 10px 0;
+}
+
+.contan ul li h6{
+
+margin: 0;
+}
+
+.logo-1{    padding: 180px 0;
+    text-align: -webkit-right;
+
+}
+
+.logo-1 a img{
+margin: 0;
+}
+
+.intro-section {
+ 
+}
+
+.intro-section .container {}
+
+
+
+.portfolio-section {
+
+}
+
+.portfolio-section:before {
+    content: " ";
+}
+
+.portfolio-section:after {
+    content: " ";
+}
+
+.portfolio-section .container {
+
+}
+
+
+.footer-section {
+
+}
+
+.footer-section .container {}
+
+.footer {
+
+}
+
+
+.copyright {
+   
+}
+
+.copyright-1 {
+   
+}
+
+.home {
+  
+}
+
+.copyright-1 p {
+
+}
+
+.copyright-1 p span {
+ 
+}
+
+.copyright-1 a {
+
+}
